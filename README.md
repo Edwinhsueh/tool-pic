@@ -190,6 +190,16 @@ textOverlays.forEach((overlay) => {
 
 ## 📋 更新日志
 
+### Version 0.1.1 (2024-01-25)
+**集成 Stagewise AI 编辑工具栏**
+
+#### 🤖 Stagewise 集成
+- ✅ 安装 `@stagewise/toolbar-next` 和 `@stagewise-plugins/react`
+- ✅ 在根布局中集成 StagewiseToolbar 组件
+- ✅ 配置 React 插件支持
+- ✅ 仅在开发模式下启用（自动处理）
+- ✅ 添加 VSCode 扩展推荐：`stagewise.stagewise-vscode-extension`
+
 ### Version 0.1.0 (2024-01-25)
 **初始版本发布 & GitHub仓库创建**
 

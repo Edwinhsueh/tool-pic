@@ -1,4 +1,6 @@
 import type { Metadata } from 'next'
+import { StagewiseToolbar } from '@stagewise/toolbar-next'
+import { ReactPlugin } from '@stagewise-plugins/react'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -15,6 +17,11 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="font-sf antialiased">
+        <StagewiseToolbar 
+          config={{
+            plugins: [ReactPlugin]
+          }}
+        />
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
           {children}
         </div>
