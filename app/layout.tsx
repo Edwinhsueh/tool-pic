@@ -17,11 +17,15 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className="font-sf antialiased">
+        {/* 
+        暂时禁用 StagewiseToolbar 由于兼容性问题
+        错误: TypeError: Cannot read properties of undefined (reading 'recentlyCreatedOwnerStacks')
         <StagewiseToolbar 
           config={{
             plugins: [ReactPlugin]
           }}
         />
+        */}
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
           {children}
         </div>

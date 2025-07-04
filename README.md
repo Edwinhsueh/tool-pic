@@ -191,7 +191,7 @@ textOverlays.forEach((overlay) => {
 ## 📋 更新日志
 
 ### Version 0.1.1 (2024-01-25)
-**集成 Stagewise AI 编辑工具栏**
+**集成 Stagewise AI 编辑工具栏 & 修复兼容性问题**
 
 #### 🤖 Stagewise 集成
 - ✅ 安装 `@stagewise/toolbar-next` 和 `@stagewise-plugins/react`
@@ -199,6 +199,12 @@ textOverlays.forEach((overlay) => {
 - ✅ 配置 React 插件支持
 - ✅ 仅在开发模式下启用（自动处理）
 - ✅ 添加 VSCode 扩展推荐：`stagewise.stagewise-vscode-extension`
+
+#### ⚠️ 临时修复
+- 🔧 暂时禁用 StagewiseToolbar 由于兼容性问题
+- 🐛 错误详情: `TypeError: Cannot read properties of undefined (reading 'recentlyCreatedOwnerStacks')`
+- 📝 等待 Stagewise 包更新或找到更好的解决方案
+- ✅ 项目现在可以正常运行，所有核心功能正常
 
 ### Version 0.1.0 (2024-01-25)
 **初始版本发布 & GitHub仓库创建**
