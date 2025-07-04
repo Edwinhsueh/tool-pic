@@ -190,8 +190,13 @@ textOverlays.forEach((overlay) => {
 
 ## 📋 更新日志
 
-### Version 0.1.0 (2024-01-20)
-**初始版本发布**
+### Version 0.1.0 (2024-01-25)
+**初始版本发布 & GitHub仓库创建**
+
+#### 🚀 GitHub仓库
+- ✅ 项目已推送到GitHub：[https://github.com/Edwinhsueh/tool-pic](https://github.com/Edwinhsueh/tool-pic)
+- ✅ 远程仓库配置为SSH：`git@github.com:Edwinhsueh/tool-pic.git`
+- ✅ 初始提交包含25个对象，88.31 KiB代码
 
 #### 核心功能
 - ✅ 图片上传与拖拽支持
